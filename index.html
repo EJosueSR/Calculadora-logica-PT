@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Lógica</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="container__informaciones">
+
+      <div class="container__logo">
+        <img src="img/uam_logo1.png" alt="Logo UAM" height="100">
+      </div>
+
+      <h1 class="container__texto container__texto-naranja">Calculadora Lógica</h1>
+      <h2 class="container__texto">Esta calculadora te permitirá realizar operaciones lógicas</h2>
+      <h4 class="container__texto">Por Eduardo Solis</h4>
+
+      <div class="inputs">
+        <input type="text" id="expression" placeholder="Ingrese una proposición lógica" class="container__input">
+      </div>
+
+      <div class="buttons">
+        <button class="container__boton" onclick="calculate()">Calcular</button>
+      </div>
+
+    <div class="result container__texto">
+        <h2>Resultado:</h2>
+      <div id="output" class="output-box">Resultado final: ...</div>
+      </div>
+
+
+      <div class="container__texto">
+        <h4>Herramientas a utilizar:</h4>
+        <h4>AND (&&) - OR (||) - NOT (!)</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
